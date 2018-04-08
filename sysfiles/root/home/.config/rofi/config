@@ -1,0 +1,19 @@
+! Rofi config
+! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
+rofi.color-normal: #181818,  #dddddd,  #202020,  #586e75,  #ffffff
+rofi.color-urgent: #d64937,  #dc322f,  #202020,  #dc322f,  #ffffff
+rofi.color-active: #181818,  #ffffff,  #202020,  #268bd2,  #ffffff
+
+!                  'background', 'border', 'separator'
+rofi.color-window: #282828,      #888888,  #002b36
+
+rofi.font: xos4 Terminus 8
+
+rofi.width: 50
+rofi.lines: 10
+rofi.columns: 10
+rofi.bw: 0
+rofi.padding: 5
+rofi.eh: 1
+rofi.separator-style: solid
+rofi.hide-scrollbar: false

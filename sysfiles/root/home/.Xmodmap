@@ -1,0 +1,24 @@
+! Swap caps lock and escape
+clear Lock
+keycode 9 = Caps_Lock NoSymbol Caps_Lock
+keycode 66 = Escape NoSymbol Escape 
+
+!clear lalt
+!keycode 64 = NoSymbol NoSymbol
+keycode 64 = ISO_Level3_Shift
+
+!keysym h = h H NoSymbol NoSymbol Left Left
+!keysym j = j J NoSymbol NoSymbol Down Down
+!keysym k = k K NoSymbol NoSymbol Up Up
+!keysym l = l L NoSymbol NoSymbol Right Right
+
+! some sugar
+!keysym o = o O NoSymbol NoSymbol BackSpace NoSymbol
+!keysym i = i I NoSymbol NoSymbol Delete NoSymbol`
+
+!keycode 64 = Mode_switch Alt_L
+!keycode 44 = j J Left
+!keycode 31 = i I Up
+!keycode 45 = k K Down
+!keycode 46 = l L Right
+
